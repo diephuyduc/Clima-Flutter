@@ -57,7 +57,7 @@ class _LocationScreenState extends State<LocationScreen> {
                 child: Row(
                   children: <Widget>[
                     Text(
-                      '32°',
+                      '${widget.locationWeather['main']['temp']}°',
                       style: kTempTextStyle,
                     ),
                     Text(
